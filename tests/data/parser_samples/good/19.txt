@@ -1,0 +1,39 @@
+if i == 1 {
+
+}
+else {
+
+}
+
+
+<<<<<<<<<<
+{
+    "hook": "parse_stmt",
+    "root": {
+        "type": "If",
+        "cond": {
+            "type": "BinaryOp",
+            "op": {
+                "type": "Operator",
+                "name": "EQ"
+            },
+            "left": {
+                "type": "Identifier",
+                "name": "i"
+            },
+            "right": {
+                "type": "IntegerConstant",
+                "value": 1
+            }
+        },
+        "then": {
+            "type": "Block",
+            "stmts": []
+        },
+        "otherwise": {
+            "type": "Block",
+            "stmts": []
+        }
+    }
+}
+>>>>>>>>>>

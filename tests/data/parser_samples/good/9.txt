@@ -1,0 +1,12 @@
+1.23e2
+
+
+<<<<<<<<<<
+{
+    "hook": "parse_expr",
+    "root": {
+        "type": "FloatConstant",
+        "value": 123.0
+    }
+}
+>>>>>>>>>>

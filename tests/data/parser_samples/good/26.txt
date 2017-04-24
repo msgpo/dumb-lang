@@ -1,0 +1,17 @@
+var i = 1
+
+
+<<<<<<<<<<
+{
+    "hook": "parse_stmt",
+    "root": {
+        "type": "Var",
+        "name": "i",
+        "ty": null,
+        "initial_value": {
+            "type": "IntegerConstant",
+            "value": 1
+        }
+    }
+}
+>>>>>>>>>>

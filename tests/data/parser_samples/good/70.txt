@@ -1,0 +1,12 @@
+"\"foobar\""
+
+
+<<<<<<<<<<
+{
+    "hook": "parse_expr",
+    "root": {
+        "type": "StringConstant",
+        "value": "\"foobar\""
+    }
+}
+>>>>>>>>>>

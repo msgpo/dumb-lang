@@ -1,0 +1,26 @@
+return i + 1
+
+
+<<<<<<<<<<
+{
+    "hook": "parse_stmt",
+    "root": {
+        "type": "Return",
+        "value": {
+            "type": "BinaryOp",
+            "op": {
+                "type": "Operator",
+                "name": "ADD"
+            },
+            "left": {
+                "type": "Identifier",
+                "name": "i"
+            },
+            "right": {
+                "type": "IntegerConstant",
+                "value": 1
+            }
+        }
+    }
+}
+>>>>>>>>>>

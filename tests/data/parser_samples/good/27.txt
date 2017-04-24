@@ -1,0 +1,20 @@
+var i: i32 = 1
+
+
+<<<<<<<<<<
+{
+    "hook": "parse_stmt",
+    "root": {
+        "type": "Var",
+        "name": "i",
+        "ty": {
+            "type": "Type",
+            "name": "i32"
+        },
+        "initial_value": {
+            "type": "IntegerConstant",
+            "value": 1
+        }
+    }
+}
+>>>>>>>>>>

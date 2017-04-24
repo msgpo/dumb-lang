@@ -1,0 +1,12 @@
+false
+
+
+<<<<<<<<<<
+{
+    "hook": "parse_expr",
+    "root": {
+        "type": "BooleanConstant",
+        "value": false
+    }
+}
+>>>>>>>>>>

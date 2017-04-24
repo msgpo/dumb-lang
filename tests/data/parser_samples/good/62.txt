@@ -1,0 +1,46 @@
+func foo(a: i32, b: i32, c: f32): i32
+
+
+<<<<<<<<<<
+{
+    "hook": "parse_func",
+    "root": {
+        "type": "Function",
+        "proto": {
+            "type": "FunctionProto",
+            "name": "foo",
+            "args": [
+                {
+                    "type": "Argument",
+                    "name": "a",
+                    "ty": {
+                        "type": "Type",
+                        "name": "i32"
+                    }
+                },
+                {
+                    "type": "Argument",
+                    "name": "b",
+                    "ty": {
+                        "type": "Type",
+                        "name": "i32"
+                    }
+                },
+                {
+                    "type": "Argument",
+                    "name": "c",
+                    "ty": {
+                        "type": "Type",
+                        "name": "f32"
+                    }
+                }
+            ],
+            "ret_ty": {
+                "type": "Type",
+                "name": "i32"
+            }
+        },
+        "body": null
+    }
+}
+>>>>>>>>>>

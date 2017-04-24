@@ -1,0 +1,34 @@
+123 + 3 * 4
+
+
+<<<<<<<<<<
+{
+    "hook": "parse_expr",
+    "root": {
+        "type": "BinaryOp",
+        "op": {
+            "type": "Operator",
+            "name": "ADD"
+        },
+        "left": {
+            "type": "IntegerConstant",
+            "value": 123
+        },
+        "right": {
+            "type": "BinaryOp",
+            "op": {
+                "type": "Operator",
+                "name": "MUL"
+            },
+            "left": {
+                "type": "IntegerConstant",
+                "value": 3
+            },
+            "right": {
+                "type": "IntegerConstant",
+                "value": 4
+            }
+        }
+	}
+}
+>>>>>>>>>>

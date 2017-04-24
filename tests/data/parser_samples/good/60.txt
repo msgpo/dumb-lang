@@ -1,0 +1,28 @@
+#[foo(true, 73, Bar)]
+
+
+<<<<<<<<<<
+{
+    "hook": "parse_attrs",
+    "forest": [
+        {
+            "type": "Attribute",
+            "name": "foo",
+            "args": [
+                {
+                    "type": "BooleanConstant",
+                    "value": true
+                },
+                {
+                    "type": "IntegerConstant",
+                    "value": 73
+                },
+                {
+                    "type": "Identifier",
+                    "name": "Bar"
+                }
+            ]
+        }
+    ]
+}
+>>>>>>>>>>

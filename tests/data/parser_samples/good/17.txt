@@ -1,0 +1,33 @@
+foo(123, 321.12, 12 as f32)
+
+
+<<<<<<<<<<
+{
+    "hook": "parse_expr",
+    "root": {
+        "type": "FuncCall",
+        "name": "foo",
+        "args": [
+            {
+                "type": "IntegerConstant",
+                "value": 123
+            },
+            {
+                "type": "FloatConstant",
+                "value": 321.12
+            },
+            {
+                "type": "Cast",
+                "value": {
+                    "type": "IntegerConstant",
+                    "value": 12
+                },
+                "dst_ty": {
+                    "type": "Type",
+                    "name": "f32"
+                }
+            }
+        ]
+    }
+}
+>>>>>>>>>>

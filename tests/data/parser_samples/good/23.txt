@@ -1,0 +1,11 @@
+continue
+
+
+<<<<<<<<<<
+{
+    "hook": "parse_stmt",
+    "root": {
+        "type": "Continue"
+    }
+}
+>>>>>>>>>>

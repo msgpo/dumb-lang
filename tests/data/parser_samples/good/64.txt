@@ -1,0 +1,27 @@
+#[foo]
+func bar()
+
+
+<<<<<<<<<<
+{
+    "hook": "parse_translation_unit",
+    "root": {
+        "type": "TranslationUnit",
+        "decls": [
+            {
+                "type": "Function",
+                "proto": {
+                    "type": "FunctionProto",
+                    "name": "bar",
+                    "attrs": [
+                        {
+                            "type": "Attribute",
+                            "name": "foo"
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}
+>>>>>>>>>>

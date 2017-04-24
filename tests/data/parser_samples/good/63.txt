@@ -1,0 +1,22 @@
+#[foo]
+func bar()
+
+
+<<<<<<<<<<
+{
+    "hook": "parse_with_attrs",
+    "root": {
+        "type": "Function",
+        "proto": {
+            "type": "FunctionProto",
+            "name": "bar",
+            "attrs": [
+                {
+                    "type": "Attribute",
+                    "name": "foo"
+                }
+            ]
+        }
+    }
+}
+>>>>>>>>>>

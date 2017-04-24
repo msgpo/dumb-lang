@@ -1,0 +1,57 @@
+func fractal(re: f32, im: f32, c_re: f32, c_im: f32, num_iters: i32): i32 {
+    var iter = 0
+    var _re: f32 = 0
+    var _im: f32 = 0
+
+    while iter < num_iters && _re*_re + _im*_im < 4 {
+        var tmp = _re*_re - _im*_im + c_re
+        _im = 2*_re*_im + c_im
+        _re = tmp
+        iter += 1
+    }
+
+    return iter
+}
+
+
+func print_density(density: f32) {
+    if density > 30 {
+        print('*')
+    } else if density > 15 {
+        print('.')
+    } else {
+        print(' ')
+    }
+}
+
+
+func main(): i32 {
+    var x_min = -2.5
+    var x_max = 1.5
+    var y_min = -1.0
+    var y_max = 1.0
+
+    var width = 100
+    var height = 30
+
+    var delta_x = (x_max - x_min) / width
+    var delta_y = (y_max - y_min) / height
+
+    var i = 0
+    var j = 0
+
+    while i < height {
+        j = 0
+        while j < width {
+            var re = x_min + delta_x * j
+            var im = y_min + delta_y * i
+            var density = fractal(re, im, re, im, 100)
+            print_density(density)
+            j += 1
+        }
+        print('\n')
+        i += 1
+    }
+
+    return 0
+}

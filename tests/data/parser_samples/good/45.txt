@@ -1,0 +1,34 @@
+i *= 3 + 7
+
+
+<<<<<<<<<<
+{
+    "hook": "parse_expr",
+    "root": {
+        "type": "Assignment",
+        "op": {
+            "type": "Operator",
+            "name": "MUL"
+        },
+        "lvalue": {
+            "type": "Identifier",
+            "name": "i"
+        },
+        "rvalue": {
+            "type": "BinaryOp",
+            "op": {
+                "type": "Operator",
+                "name": "ADD"
+            },
+            "left": {
+                "type": "IntegerConstant",
+                "value": 3
+            },
+            "right": {
+                "type": "IntegerConstant",
+                "value": 7
+            }
+        }
+    }
+}
+>>>>>>>>>>

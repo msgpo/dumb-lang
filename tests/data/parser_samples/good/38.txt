@@ -1,0 +1,23 @@
+4 | 0
+
+
+<<<<<<<<<<
+{
+    "hook": "parse_expr",
+    "root": {
+        "type": "BinaryOp",
+        "op": {
+            "type": "Operator",
+            "name": "OR"
+        },
+        "left": {
+            "type": "IntegerConstant",
+            "value": 4
+        },
+        "right": {
+            "type": "IntegerConstant",
+            "value": 0
+        }
+    }
+}
+>>>>>>>>>>

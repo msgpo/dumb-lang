@@ -1,0 +1,7 @@
+*~
+__pycache__/
+.coverage
+.cache/
+*.egg-info/
+.eggs/
+*.o

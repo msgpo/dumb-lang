@@ -1,0 +1,20 @@
+#[foo(123.754)]
+
+
+<<<<<<<<<<
+{
+    "hook": "parse_attrs",
+    "forest": [
+        {
+            "type": "Attribute",
+            "name": "foo",
+            "args": [
+                {
+                    "type": "FloatConstant",
+                    "value": 123.754
+                }
+            ]
+        }
+    ]
+}
+>>>>>>>>>>

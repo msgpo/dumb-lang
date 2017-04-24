@@ -1,0 +1,23 @@
+i += 1
+
+
+<<<<<<<<<<
+{
+    "hook": "parse_expr",
+    "root": {
+        "type": "Assignment",
+        "op": {
+            "type": "Operator",
+            "name": "ADD"
+        },
+        "lvalue": {
+            "type": "Identifier",
+            "name": "i"
+        },
+        "rvalue": {
+            "type": "IntegerConstant",
+            "value": 1
+        }
+    }
+}
+>>>>>>>>>>

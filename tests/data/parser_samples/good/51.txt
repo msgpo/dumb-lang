@@ -1,0 +1,17 @@
+func foo()
+
+
+<<<<<<<<<<
+{
+    "hook": "parse_func_proto",
+    "root": {
+        "type": "FunctionProto",
+        "name": "foo",
+        "args": [],
+        "ret_ty": {
+            "type": "Type",
+            "name": "void"
+        }
+    }
+}
+>>>>>>>>>>

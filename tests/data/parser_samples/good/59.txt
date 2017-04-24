@@ -1,0 +1,20 @@
+#[foo(Bar)]
+
+
+<<<<<<<<<<
+{
+    "hook": "parse_attrs",
+    "forest": [
+        {
+            "type": "Attribute",
+            "name": "foo",
+            "args": [
+                {
+                    "type": "Identifier",
+                    "name": "Bar"
+                }
+            ]
+        }
+    ]
+}
+>>>>>>>>>>

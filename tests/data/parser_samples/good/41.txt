@@ -1,0 +1,23 @@
+true || false
+
+
+<<<<<<<<<<
+{
+    "hook": "parse_expr",
+    "root": {
+        "type": "BinaryOp",
+        "op": {
+            "type": "Operator",
+            "name": "LOGICAL_OR"
+        },
+        "left": {
+            "type": "BooleanConstant",
+            "value": true
+        },
+        "right": {
+            "type": "BooleanConstant",
+            "value": false
+        }
+    }
+}
+>>>>>>>>>>

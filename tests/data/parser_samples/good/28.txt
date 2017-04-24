@@ -1,0 +1,41 @@
+{
+    i = 2
+    continue;;;;;;
+;;;;return 0;
+}
+
+
+<<<<<<<<<<
+{
+    "hook": "parse_stmt",
+    "root": {
+        "type": "Block",
+        "stmts": [
+            {
+                "type": "Expression",
+                "expr": {
+                    "type": "Assignment",
+                    "lvalue": {
+                        "type": "Identifier",
+                        "name": "i"
+                    },
+                    "rvalue": {
+                        "type": "IntegerConstant",
+                        "value": 2
+                    }
+                }
+            },
+            {
+                "type": "Continue"
+            },
+            {
+                "type": "Return",
+                "value": {
+                    "type": "IntegerConstant",
+                    "value": 0
+                }
+            }
+        ]
+    }
+}
+>>>>>>>>>>

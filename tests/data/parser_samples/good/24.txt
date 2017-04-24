@@ -1,0 +1,12 @@
+return
+
+
+<<<<<<<<<<
+{
+    "hook": "parse_stmt",
+    "root": {
+        "type": "Return",
+        "value": null
+    }
+}
+>>>>>>>>>>

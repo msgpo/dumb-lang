@@ -1,0 +1,51 @@
+while i < 10 {
+    i += 1
+}
+
+
+<<<<<<<<<<
+{
+    "hook": "parse_stmt",
+    "root": {
+        "type": "While",
+        "cond": {
+            "type": "BinaryOp",
+            "op": {
+                "type": "Operator",
+                "name": "LT"
+            },
+            "left": {
+                "type": "Identifier",
+                "name": "i"
+            },
+            "right": {
+                "type": "IntegerConstant",
+                "value": 10
+            }
+        },
+        "body": {
+            "type": "Block",
+            "stmts": [
+                {
+                    "type": "Expression",
+                    "expr": {
+                        "type": "Assignment",
+                        "op": {
+                            "type": "Operator",
+                            "name": "ADD"
+                        },
+                        "lvalue": {
+                            "type": "Identifier",
+                            "name": "i"
+                        },
+                        "rvalue": {
+                            "type": "IntegerConstant",
+                            "value": 1
+                        }
+                    }
+                }
+            ]
+        }
+    }
+}
+>>>>>>>>>>

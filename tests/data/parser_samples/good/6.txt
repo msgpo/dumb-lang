@@ -1,0 +1,12 @@
+123
+
+
+<<<<<<<<<<
+{
+    "hook": "parse_expr",
+    "root": {
+        "type": "IntegerConstant",
+        "value": 123
+    }
+}
+>>>>>>>>>>

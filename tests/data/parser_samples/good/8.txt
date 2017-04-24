@@ -1,0 +1,19 @@
+-123.754
+
+
+<<<<<<<<<<
+{
+    "hook": "parse_expr",
+    "root": {
+        "type": "UnaryOp",
+        "op": {
+            "type": "Operator",
+            "name": "UNARY_MINUS"
+        },
+        "value": {
+            "type": "FloatConstant",
+            "value": 123.754
+        }
+    }
+}
+>>>>>>>>>>

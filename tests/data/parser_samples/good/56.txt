@@ -1,0 +1,20 @@
+#[foo(123)]
+
+
+<<<<<<<<<<
+{
+    "hook": "parse_attrs",
+    "forest": [
+        {
+            "type": "Attribute",
+            "name": "foo",
+            "args": [
+                {
+                    "type": "IntegerConstant",
+                    "value": 123
+                }
+            ]
+        }
+    ]
+}
+>>>>>>>>>>

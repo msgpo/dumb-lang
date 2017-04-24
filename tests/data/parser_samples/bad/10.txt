@@ -1,0 +1,9 @@
+#[foo]
+True
+
+
+<<<<<<<<<<
+{
+    "hook": "parse_with_attrs"
+}
+>>>>>>>>>>

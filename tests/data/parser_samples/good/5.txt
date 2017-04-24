@@ -1,0 +1,23 @@
+7 / 8
+
+
+<<<<<<<<<<
+{
+    "hook": "parse_expr",
+    "root": {
+        "type": "BinaryOp",
+        "op": {
+            "type": "Operator",
+            "name": "DIV"
+        },
+        "left": {
+            "type": "IntegerConstant",
+            "value": 7
+        },
+        "right": {
+            "type": "IntegerConstant",
+            "value": 8
+        }
+    }
+}
+>>>>>>>>>>

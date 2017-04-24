@@ -1,0 +1,23 @@
+3 << 12
+
+
+<<<<<<<<<<
+{
+    "hook": "parse_expr",
+    "root": {
+        "type": "BinaryOp",
+        "op": {
+            "type": "Operator",
+            "name": "SHL"
+        },
+        "left": {
+            "type": "IntegerConstant",
+            "value": 3
+        },
+        "right": {
+            "type": "IntegerConstant",
+            "value": 12
+        }
+    }
+}
+>>>>>>>>>>

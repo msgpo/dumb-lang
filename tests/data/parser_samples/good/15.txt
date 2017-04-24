@@ -1,0 +1,19 @@
+123 as i32
+
+
+<<<<<<<<<<
+{
+    "hook": "parse_expr",
+    "root": {
+        "type": "Cast",
+        "value": {
+            "type": "IntegerConstant",
+            "value": 123
+        },
+        "dst_ty": {
+            "type": "Type",
+            "name": "i32"
+        }
+    }
+}
+>>>>>>>>>>

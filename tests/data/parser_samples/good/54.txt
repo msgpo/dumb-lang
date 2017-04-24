@@ -1,0 +1,102 @@
+func factorial(n: i32): i32 {
+    if n < 2 {
+        return 1
+    }
+    return n * factorial(n - 1)
+}
+
+
+<<<<<<<<<<
+{
+    "hook": "parse_func",
+    "root": {
+        "type": "Function",
+        "proto": {
+            "type": "FunctionProto",
+            "args": [
+                {
+                    "type": "Argument",
+                    "name": "n",
+                    "ty": {
+                        "type": "Type",
+                        "name": "i32"
+                    }
+                }
+            ],
+            "ret_ty": {
+                "type": "Type",
+                "name": "i32"
+            }
+        },
+        "body": {
+            "type": "Block",
+            "stmts": [
+                {
+                    "type": "If",
+                    "cond": {
+                        "type": "BinaryOp",
+                        "op": {
+                            "type": "Operator",
+                            "name": "LT"
+                        },
+                        "left": {
+                            "type": "Identifier",
+                            "name": "n"
+                        },
+                        "right": {
+                            "type": "IntegerConstant",
+                            "value": 2
+                        }
+                    },
+                    "then": {
+                        "type": "Block",
+                        "stmts": [
+                            {
+                                "type": "Return",
+                                "value": {
+                                    "type": "IntegerConstant",
+                                    "value": 1
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "Return",
+                    "value": {
+                        "type": "BinaryOp",
+                        "op": {
+                            "type": "Operator",
+                            "name": "MUL"
+                        },
+                        "left": {
+                            "type": "Identifier",
+                            "name": "n"
+                        },
+                        "right": {
+                            "type": "FuncCall",
+                            "args": [
+                                {
+                                    "type": "BinaryOp",
+                                    "op": {
+                                        "type": "Operator",
+                                        "name": "SUB"
+                                    },
+                                    "left": {
+                                        "type": "Identifier",
+                                        "name": "n"
+                                    },
+                                    "right": {
+                                        "type": "IntegerConstant",
+                                        "value": 1
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                }
+            ]
+        }
+    }
+}
+>>>>>>>>>>

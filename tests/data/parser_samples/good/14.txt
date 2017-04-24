@@ -1,0 +1,19 @@
+!false
+
+
+<<<<<<<<<<
+{
+    "hook": "parse_expr",
+    "root": {
+        "type": "UnaryOp",
+        "op": {
+            "type": "Operator",
+            "name": "LOGICAL_NOT"
+        },
+        "value": {
+            "type": "BooleanConstant",
+            "value": false
+        }
+    }
+}
+>>>>>>>>>>

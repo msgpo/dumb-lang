@@ -1,0 +1,23 @@
+4 >= 3
+
+
+<<<<<<<<<<
+{
+    "hook": "parse_expr",
+    "root": {
+        "type": "BinaryOp",
+        "op": {
+            "type": "Operator",
+            "name": "GE"
+        },
+        "left": {
+            "type": "IntegerConstant",
+            "value": 4
+        },
+        "right": {
+            "type": "IntegerConstant",
+            "value": 3
+        }
+    }
+}
+>>>>>>>>>>
