@@ -17,12 +17,11 @@ setup(name='dumbc',
       long_description=long_description,
       author='Vlad Zagorodniy',
       author_email='vladzzag@gmail.com',
-      license='BSD',
+      license='MIT',
       classifiers=[
           'Development Status :: 7 - Inactive',
           'Environment :: Console',
           'Intended Audience :: Developers',
-          'License :: OSI Approved :: BSD License',
           'Topic :: Software Development :: Compilers',
           'Programming Language :: Python :: 3'
       ],
