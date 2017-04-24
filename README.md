@@ -14,7 +14,7 @@ After you cloned this repo, try running
 $ docker build -it dumb-lang .
 ```
 
-when it gets done, run a container with `dumb-lang` image
+when it's done, run a container with `dumb-lang` image
 
 ```
 $ docker run --name <fancy name> -it dumb-lang
@@ -39,8 +39,6 @@ to compile this, try running `dumbc` with `build` command:
 ```
 $ dumbc build examples/hello.dumb
 ```
-
-and run
 
 ```
 $ ./hello
@@ -117,7 +115,9 @@ $ dumbc build examples/mandelbrot.dumb
 
 Result
 
-![result](/zzag/dumb-lang/blob/master/examples/mandlebrot.png)
+<p align="center">
+    <img src="examples/mandelbrot.png" alt="mandelbrot" >
+</p>
 
 
 ## Language spec
